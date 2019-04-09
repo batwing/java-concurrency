@@ -26,6 +26,7 @@ public class Operations {
             System.out.println("Result of transfer-1:" + result1.get());
             System.out.println("Result of transfer-2:" + result2.get());
             service.shutdown();
+            service.awaitTermination(10, TimeUnit.SECONDS);
         }
         catch(Exception ex){
             ex.printStackTrace();
