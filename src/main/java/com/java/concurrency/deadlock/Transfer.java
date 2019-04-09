@@ -1,7 +1,6 @@
-package com.slowmo.concurrency.deadlock;
+package com.java.concurrency.deadlock;
 
-import com.slowmo.concurrency.deadlock.exception.InsufficientFundsException;
-import com.sun.org.apache.xpath.internal.operations.Bool;
+import com.java.concurrency.deadlock.exception.InsufficientFundsException;
 import lombok.AllArgsConstructor;
 
 import java.util.Random;

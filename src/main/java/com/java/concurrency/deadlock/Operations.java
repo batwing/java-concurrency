@@ -1,4 +1,4 @@
-package com.slowmo.concurrency.deadlock;
+package com.java.concurrency.deadlock;
 
 
 import java.util.concurrent.*;

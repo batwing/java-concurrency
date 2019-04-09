@@ -1,4 +1,4 @@
-package com.slowmo.concurrency.deadlock.exception;
+package com.java.concurrency.deadlock.exception;
 
 public class InsufficientFundsException extends IllegalArgumentException {
     public InsufficientFundsException() {
