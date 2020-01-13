@@ -1,6 +1,8 @@
 package com.java.concurrency.deadlock;
 
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.*;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -17,6 +19,9 @@ public class Operations {
 
     public static void main(String[] args) {
         try {
+            HashMap<Integer, String> map = new HashMap<>();
+            map.put(10, "test");
+
             Thread.currentThread().setName("Thread-1");
             final Account a = new Account(1, 1000, new ReentrantLock());
             final Account b = new Account(2, 2000, new ReentrantLock());

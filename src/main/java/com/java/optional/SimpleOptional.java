@@ -1,5 +1,7 @@
 package com.java.optional;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -27,5 +29,6 @@ public class SimpleOptional {
 
         result = addUsingStreamReduce(Optional.of(10), Optional.of(-13));
         System.out.println("2.2 addUsingStreamReduce: result = " + result);
+
     }
 }
